@@ -1,6 +1,46 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 header {
+  background-color: #1F2937;
+  padding: 8px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
   display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row.spreaded {
   justify-content: space-between;
+}
+
+.headerHeroMain {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.headerHeroSecond {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.headerLogo {
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
 ul {
@@ -13,6 +53,26 @@ ul {
 
 .topSection {
   display: flex;
+  background-color: #1F2937;
+}
+
+.midSection1 {
+  text-align: center;
+}
+
+.midSection2 {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+.lowSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882F6;
+  color: #F9FAF8;
 }
 
 .topSectionImg {
@@ -30,5 +90,18 @@ img {
 
 footer {
   display: flex;
-  justify-self: center;
+  justify-self: stretch;
+  justify-content:center;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 0.5rem;
+  border-color: #F9FAF8;
+  border: solid white;
+  width: 100px;
+  height: 30px;
 }
